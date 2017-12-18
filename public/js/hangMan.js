@@ -201,5 +201,5 @@ let updateDisplay = function(emptyItems,indexOfLetterInWord,letter) {
   return emptyItems;
 }
 
-
+// If you want to test updateDisplay() then comment line number 200.
 // console.log(updateDisplay(['_','_','_','_'],[1,3],'i'));

@@ -60,8 +60,3 @@ let game = function(word,dashes) {
 }
 
 window.onload = startGame;
-
-//if you want to use onclick replace with this.
-// let buttons = document.getElementById('buttonGroup');
-// buttons.onclick = function(event){
-//   let letter = event.target.id;
