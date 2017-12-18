@@ -1,4 +1,4 @@
-let words=[
+let countries=[
   'Afghanistan',
   'Albania',
   'Algeria',
@@ -163,8 +163,8 @@ let words=[
 ];
 
 let randomWord = function() {
-  let index = Math.floor(Math.random() * words.length);
-  return words[index].toLowerCase();
+  let index = Math.floor(Math.random() * countries.length);
+  return countries[index].toLowerCase();
 }
 
 // console.log(randomWord());
